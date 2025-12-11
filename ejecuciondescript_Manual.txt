@@ -1,0 +1,6 @@
+powershell.exe -File "C:\ruta\SyncFiles.ps1" `
+  -Source "C:\Windows\Temp" `
+  -Destination "\\safiletestsmb.file.core.windows.net\test" `
+  -Mode Copy `
+  -Exclude "*.tmp,*.bak" `
+  -LogPath "C:\Logs\sync-app.log"

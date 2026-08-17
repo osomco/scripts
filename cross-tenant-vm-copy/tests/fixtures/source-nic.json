@@ -1,0 +1,23 @@
+{
+  "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/APP-RG/providers/Microsoft.Network/networkInterfaces/APP-VM-nic",
+  "name": "APP-VM-nic",
+  "tags": {},
+  "properties": {
+    "enableAcceleratedNetworking": true,
+    "enableIPForwarding": false,
+    "dnsSettings": {"dnsServers": ["10.10.0.10"]},
+    "networkSecurityGroup": {"id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/APP-RG/providers/Microsoft.Network/networkSecurityGroups/APP-VM-nsg"},
+    "ipConfigurations": [
+      {
+        "name": "ipconfig1",
+        "properties": {
+          "primary": true,
+          "privateIPAddress": "10.10.1.20",
+          "privateIPAddressVersion": "IPv4",
+          "privateIPAllocationMethod": "Static",
+          "subnet": {"id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/NET-RG/providers/Microsoft.Network/virtualNetworks/app-vnet/subnets/app-subnet"}
+        }
+      }
+    ]
+  }
+}

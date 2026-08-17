@@ -1,0 +1,7 @@
+{
+  "value": [
+    {"name": {"value": "standardDSv3Family"}, "currentValue": 4, "limit": 10},
+    {"name": {"value": "standardESv5Family"}, "currentValue": 0, "limit": 100},
+    {"name": {"value": "standardMSFamily"}, "currentValue": 0, "limit": 100}
+  ]
+}

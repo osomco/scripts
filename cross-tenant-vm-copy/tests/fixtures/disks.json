@@ -1,0 +1,62 @@
+[
+  {
+    "index": 0,
+    "role": "OS",
+    "lun": null,
+    "config": {"osType": "Windows", "name": "APP-VM-osdisk", "caching": "ReadWrite"},
+    "resource": {
+      "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/APP-RG/providers/Microsoft.Compute/disks/APP-VM-osdisk",
+      "name": "APP-VM-osdisk",
+      "location": "eastus",
+      "zones": ["1"],
+      "sku": {"name": "Premium_LRS"},
+      "tags": {"env": "prod"},
+      "properties": {
+        "osType": "Windows",
+        "hyperVGeneration": "V2",
+        "diskSizeBytes": 137438953472,
+        "diskSizeGB": 128,
+        "securityProfile": {"securityType": "TrustedLaunch"},
+        "encryption": {"type": "EncryptionAtRestWithPlatformKey"}
+      }
+    }
+  },
+  {
+    "index": 1,
+    "role": "DATA",
+    "lun": 0,
+    "config": {"lun": 0, "name": "APP-VM-data0", "caching": "None", "writeAcceleratorEnabled": false},
+    "resource": {
+      "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/APP-RG/providers/Microsoft.Compute/disks/APP-VM-data0",
+      "name": "APP-VM-data0",
+      "location": "eastus",
+      "zones": ["1"],
+      "sku": {"name": "Premium_LRS"},
+      "tags": {},
+      "properties": {
+        "diskSizeBytes": 68719476736,
+        "diskSizeGB": 64,
+        "encryption": {"type": "EncryptionAtRestWithPlatformKey"}
+      }
+    }
+  },
+  {
+    "index": 2,
+    "role": "DATA",
+    "lun": 1,
+    "config": {"lun": 1, "name": "APP-VM-data1", "caching": "ReadOnly", "writeAcceleratorEnabled": false},
+    "resource": {
+      "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/APP-RG/providers/Microsoft.Compute/disks/APP-VM-data1",
+      "name": "APP-VM-data1",
+      "location": "eastus",
+      "zones": ["1"],
+      "sku": {"name": "Standard_LRS"},
+      "tags": {},
+      "properties": {
+        "diskSizeBytes": 68719476736,
+        "diskSizeGB": 64,
+        "encryption": {"type": "EncryptionAtRestWithPlatformKey"}
+      }
+    }
+  }
+]

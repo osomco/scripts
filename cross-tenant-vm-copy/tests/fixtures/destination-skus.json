@@ -1,0 +1,219 @@
+{
+  "value": [
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_D2s_v3",
+      "family": "standardDSv3Family",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "vCPUs", "value": "2"},
+        {"name": "MemoryGB", "value": "8"},
+        {"name": "MaxDataDiskCount", "value": "4"},
+        {"name": "PremiumIO", "value": "True"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "CpuArchitectureType", "value": "x64"},
+        {"name": "HyperVGenerations", "value": "V1,V2"}
+      ],
+      "restrictions": []
+    },
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_D4s_v3",
+      "family": "standardDSv3Family",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "vCPUs", "value": "4"},
+        {"name": "MemoryGB", "value": "16"},
+        {"name": "MaxDataDiskCount", "value": "8"},
+        {"name": "PremiumIO", "value": "True"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "CpuArchitectureType", "value": "x64"},
+        {"name": "HyperVGenerations", "value": "V1,V2"}
+      ],
+      "restrictions": []
+    },
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_D8s_v3",
+      "family": "standardDSv3Family",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "vCPUs", "value": "8"},
+        {"name": "MemoryGB", "value": "32"},
+        {"name": "MaxDataDiskCount", "value": "16"},
+        {"name": "PremiumIO", "value": "True"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "CpuArchitectureType", "value": "x64"},
+        {"name": "HyperVGenerations", "value": "V1,V2"}
+      ],
+      "restrictions": []
+    },
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_E4s_v5",
+      "family": "standardESv5Family",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "vCPUs", "value": "4"},
+        {"name": "MemoryGB", "value": "32"},
+        {"name": "MaxDataDiskCount", "value": "8"},
+        {"name": "PremiumIO", "value": "True"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "CpuArchitectureType", "value": "x64"},
+        {"name": "HyperVGenerations", "value": "V1,V2"},
+        {"name": "TrustedLaunchDisabled", "value": "False"}
+      ],
+      "restrictions": []
+    },
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_M8ms",
+      "family": "standardMSFamily",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "vCPUs", "value": "8"},
+        {"name": "MemoryGB", "value": "218"},
+        {"name": "MaxDataDiskCount", "value": "8"},
+        {"name": "PremiumIO", "value": "True"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "CpuArchitectureType", "value": "x64"},
+        {"name": "HyperVGenerations", "value": "V1,V2"},
+        {"name": "TrustedLaunchDisabled", "value": "True"}
+      ],
+      "restrictions": []
+    },
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_D4_v3",
+      "family": "standardDv3Family",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "vCPUs", "value": "4"},
+        {"name": "MemoryGB", "value": "16"},
+        {"name": "MaxDataDiskCount", "value": "8"},
+        {"name": "PremiumIO", "value": "False"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "CpuArchitectureType", "value": "x64"},
+        {"name": "HyperVGenerations", "value": "V1,V2"}
+      ],
+      "restrictions": []
+    },
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_D4ps_v5",
+      "family": "standardDPSv5Family",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "vCPUs", "value": "4"},
+        {"name": "MemoryGB", "value": "16"},
+        {"name": "MaxDataDiskCount", "value": "8"},
+        {"name": "PremiumIO", "value": "True"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "CpuArchitectureType", "value": "Arm64"},
+        {"name": "HyperVGenerations", "value": "V2"}
+      ],
+      "restrictions": []
+    },
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_F4s_v2_NoCaps",
+      "family": "standardFSv2Family",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "MemoryGB", "value": "8"},
+        {"name": "MaxDataDiskCount", "value": "8"},
+        {"name": "PremiumIO", "value": "True"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "HyperVGenerations", "value": "V1,V2"}
+      ],
+      "restrictions": []
+    },
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_D4as_v5",
+      "family": "standardDASv5Family",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "vCPUs", "value": "4"},
+        {"name": "MemoryGB", "value": "16"},
+        {"name": "MaxDataDiskCount", "value": "8"},
+        {"name": "PremiumIO", "value": "True"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "CpuArchitectureType", "value": "x64"},
+        {"name": "HyperVGenerations", "value": "V1,V2"}
+      ],
+      "restrictions": [
+        {
+          "type": "Zone",
+          "reasonCode": "NotAvailableForSubscription",
+          "restrictionInfo": {"locations": ["eastus2"], "zones": ["1"]}
+        }
+      ]
+    },
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_D4s_v4",
+      "family": "standardDSv4Family",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "vCPUs", "value": "4"},
+        {"name": "MemoryGB", "value": "16"},
+        {"name": "MaxDataDiskCount", "value": "8"},
+        {"name": "PremiumIO", "value": "True"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "CpuArchitectureType", "value": "x64"},
+        {"name": "HyperVGenerations", "value": "V1,V2"}
+      ],
+      "restrictions": [
+        {
+          "type": "Location",
+          "reasonCode": "NotAvailableForSubscription",
+          "restrictionInfo": {"locations": ["eastus2"]}
+        }
+      ]
+    },
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_DS4_v2",
+      "family": "standardDSv2Family",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "vCPUs", "value": "8"},
+        {"name": "MemoryGB", "value": "28"},
+        {"name": "MaxDataDiskCount", "value": "16"},
+        {"name": "PremiumIO", "value": "True"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "CpuArchitectureType", "value": "x64"},
+        {"name": "HyperVGenerations", "value": "V1"}
+      ],
+      "restrictions": []
+    },
+    {
+      "resourceType": "disks",
+      "name": "Premium_LRS",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [],
+      "restrictions": []
+    },
+    {
+      "resourceType": "disks",
+      "name": "Standard_LRS",
+      "locations": ["eastus2"],
+      "locationInfo": [{"location": "eastus2", "zones": ["1", "2", "3"]}],
+      "capabilities": [],
+      "restrictions": []
+    }
+  ]
+}

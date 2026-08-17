@@ -28,7 +28,7 @@ snapshots, SAS temporales y copias AzCopy server-to-server.
 
 ```bash
 RUNBOOK_DIR="$HOME/AzureMigrationRunbook"
-BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/azure-vm-cross-tenant-migration"
+BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/cross-tenant-vm-copy"
 
 mkdir -p "$RUNBOOK_DIR"
 chmod 700 "$RUNBOOK_DIR"
@@ -47,7 +47,7 @@ shasum -a 256 -c SHA256SUMS
 
 ```bash
 RUNBOOK_DIR="$HOME/AzureMigrationRunbook"
-BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/azure-vm-cross-tenant-migration"
+BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/cross-tenant-vm-copy"
 
 mkdir -p "$RUNBOOK_DIR"
 chmod 700 "$RUNBOOK_DIR"

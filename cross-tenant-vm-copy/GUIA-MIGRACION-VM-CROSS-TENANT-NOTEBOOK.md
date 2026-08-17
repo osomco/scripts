@@ -47,7 +47,7 @@ En macOS:
 
 ```bash
 RUNBOOK_DIR="$HOME/AzureMigrationRunbook"
-BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/azure-vm-cross-tenant-migration"
+BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/cross-tenant-vm-copy"
 
 mkdir -p "$RUNBOOK_DIR"
 chmod 700 "$RUNBOOK_DIR"
@@ -65,7 +65,7 @@ En WSL2 Ubuntu o Linux:
 
 ```bash
 RUNBOOK_DIR="$HOME/AzureMigrationRunbook"
-BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/azure-vm-cross-tenant-migration"
+BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/cross-tenant-vm-copy"
 
 mkdir -p "$RUNBOOK_DIR"
 chmod 700 "$RUNBOOK_DIR"

@@ -1,0 +1,17 @@
+{
+  "sourceSize": "Standard_D4s_v3",
+  "sourceFamily": "standardDSv3Family",
+  "vcpus": 4,
+  "memoryGB": 16,
+  "architecture": "x64",
+  "hyperVGeneration": "V2",
+  "osType": "Windows",
+  "dataDiskCount": 2,
+  "premiumIO": true,
+  "acceleratedNetworking": true,
+  "trustedLaunch": false,
+  "writeAccelerator": false,
+  "zone": "",
+  "totalDiskBytes": 274877906944,
+  "metadataComplete": true
+}

@@ -1,0 +1,21 @@
+{
+  "value": [
+    {
+      "resourceType": "virtualMachines",
+      "name": "Standard_D4s_v3",
+      "family": "standardDSv3Family",
+      "locations": ["eastus"],
+      "locationInfo": [{"location": "eastus", "zones": ["1", "2", "3"]}],
+      "capabilities": [
+        {"name": "vCPUs", "value": "4"},
+        {"name": "MemoryGB", "value": "16"},
+        {"name": "MaxDataDiskCount", "value": "8"},
+        {"name": "PremiumIO", "value": "True"},
+        {"name": "AcceleratedNetworkingEnabled", "value": "True"},
+        {"name": "CpuArchitectureType", "value": "x64"},
+        {"name": "HyperVGenerations", "value": "V1,V2"}
+      ],
+      "restrictions": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "value": [
+    {"name": {"value": "cores", "localizedValue": "Total Regional vCPUs"}, "currentValue": 20, "limit": 100},
+    {"name": {"value": "standardDSv3Family", "localizedValue": "Standard DSv3 Family vCPUs"}, "currentValue": 4, "limit": 10},
+    {"name": {"value": "standardESv5Family", "localizedValue": "Standard ESv5 Family vCPUs"}, "currentValue": 0, "limit": 100},
+    {"name": {"value": "standardMSFamily", "localizedValue": "Standard MS Family vCPUs"}, "currentValue": 0, "limit": 100},
+    {"name": {"value": "standardDv3Family", "localizedValue": "Standard Dv3 Family vCPUs"}, "currentValue": 0, "limit": 100},
+    {"name": {"value": "standardDPSv5Family", "localizedValue": "Standard DPSv5 Family vCPUs"}, "currentValue": 0, "limit": 100},
+    {"name": {"value": "standardFSv2Family", "localizedValue": "Standard FSv2 Family vCPUs"}, "currentValue": 0, "limit": 100},
+    {"name": {"value": "standardDASv5Family", "localizedValue": "Standard DASv5 Family vCPUs"}, "currentValue": 0, "limit": 100},
+    {"name": {"value": "standardDSv4Family", "localizedValue": "Standard DSv4 Family vCPUs"}, "currentValue": 0, "limit": 100},
+    {"name": {"value": "standardDSv2Family", "localizedValue": "Standard DSv2 Family vCPUs"}, "currentValue": 0, "limit": 100}
+  ]
+}

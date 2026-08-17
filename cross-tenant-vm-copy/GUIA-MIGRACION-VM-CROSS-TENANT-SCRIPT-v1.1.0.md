@@ -102,7 +102,7 @@ SCRIPT="$RUNBOOK_DIR/azure-cross-tenant-vm-migrate.sh"
 GUIDE="$RUNBOOK_DIR/GUIA-MIGRACION-VM-CROSS-TENANT-SCRIPT-v1.1.0.md"
 NOTEBOOK="$RUNBOOK_DIR/GUIA-MIGRACION-VM-CROSS-TENANT-NOTEBOOK.md"
 chmod 700 "$SCRIPT"
-shasum -a 256 -c SHA256SUMS
+grep -E ' (azure-cross-tenant-vm-migrate\.sh|GUIA-MIGRACION-VM-CROSS-TENANT-SCRIPT-v1\.1\.0\.md|GUIA-MIGRACION-VM-CROSS-TENANT-NOTEBOOK\.md)$' SHA256SUMS | shasum -a 256 -c -
 ```
 
 La verificación debe mostrar `OK` para los tres artefactos antes de ejecutar el
@@ -176,7 +176,7 @@ SCRIPT="$RUNBOOK_DIR/azure-cross-tenant-vm-migrate.sh"
 GUIDE="$RUNBOOK_DIR/GUIA-MIGRACION-VM-CROSS-TENANT-SCRIPT-v1.1.0.md"
 NOTEBOOK="$RUNBOOK_DIR/GUIA-MIGRACION-VM-CROSS-TENANT-NOTEBOOK.md"
 chmod 700 "$SCRIPT"
-sha256sum -c SHA256SUMS
+grep -E ' (azure-cross-tenant-vm-migrate\.sh|GUIA-MIGRACION-VM-CROSS-TENANT-SCRIPT-v1\.1\.0\.md|GUIA-MIGRACION-VM-CROSS-TENANT-NOTEBOOK\.md)$' SHA256SUMS | sha256sum -c -
 ```
 
 La verificación debe mostrar `OK` para los tres artefactos antes de ejecutar el

@@ -58,7 +58,7 @@ curl --fail --location --remote-name "$BASE_URL/GUIA-MIGRACION-VM-CROSS-TENANT-S
 curl --fail --location --remote-name "$BASE_URL/GUIA-MIGRACION-VM-CROSS-TENANT-NOTEBOOK.md"
 curl --fail --location --remote-name "$BASE_URL/SHA256SUMS"
 chmod 700 azure-cross-tenant-vm-migrate.sh
-shasum -a 256 -c SHA256SUMS
+grep -E ' (azure-cross-tenant-vm-migrate\.sh|GUIA-MIGRACION-VM-CROSS-TENANT-SCRIPT-v1\.1\.0\.md|GUIA-MIGRACION-VM-CROSS-TENANT-NOTEBOOK\.md)$' SHA256SUMS | shasum -a 256 -c -
 ```
 
 En WSL2 Ubuntu o Linux:
@@ -76,7 +76,7 @@ curl --fail --location --remote-name "$BASE_URL/GUIA-MIGRACION-VM-CROSS-TENANT-S
 curl --fail --location --remote-name "$BASE_URL/GUIA-MIGRACION-VM-CROSS-TENANT-NOTEBOOK.md"
 curl --fail --location --remote-name "$BASE_URL/SHA256SUMS"
 chmod 700 azure-cross-tenant-vm-migrate.sh
-sha256sum -c SHA256SUMS
+grep -E ' (azure-cross-tenant-vm-migrate\.sh|GUIA-MIGRACION-VM-CROSS-TENANT-SCRIPT-v1\.1\.0\.md|GUIA-MIGRACION-VM-CROSS-TENANT-NOTEBOOK\.md)$' SHA256SUMS | sha256sum -c -
 ```
 
 La verificación debe mostrar `OK` para los tres artefactos. No ejecute ninguna

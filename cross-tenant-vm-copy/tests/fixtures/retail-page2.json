@@ -1,0 +1,50 @@
+{
+  "BillingCurrency": "USD",
+  "CustomerEntityId": "Default",
+  "NextPageLink": null,
+  "Count": 6,
+  "Items": [
+    {
+      "currencyCode": "USD", "tierMinimumUnits": 0, "retailPrice": 1.1, "unitPrice": 1.1,
+      "armRegionName": "eastus2", "location": "US East 2", "meterName": "M8ms",
+      "productName": "Virtual Machines MS Series", "skuName": "M8ms",
+      "serviceName": "Virtual Machines", "unitOfMeasure": "1 Hour", "type": "Consumption",
+      "isPrimaryMeterRegion": true, "armSkuName": "Standard_M8ms", "savingsPlan": []
+    },
+    {
+      "currencyCode": "USD", "tierMinimumUnits": 0, "retailPrice": 0.096, "unitPrice": 0.096,
+      "armRegionName": "eastus2", "location": "US East 2", "meterName": "D2s v3",
+      "productName": "Virtual Machines Dsv3 Series", "skuName": "D2s v3",
+      "serviceName": "Virtual Machines", "unitOfMeasure": "1 Hour", "type": "Consumption",
+      "isPrimaryMeterRegion": true, "armSkuName": "Standard_D2s_v3", "savingsPlan": []
+    },
+    {
+      "currencyCode": "USD", "tierMinimumUnits": 0, "retailPrice": 0.09, "unitPrice": 0.09,
+      "armRegionName": "eastus2", "location": "US East 2", "meterName": "D4s v3 Cloud Services",
+      "productName": "Cloud Services Dsv3 Series", "skuName": "D4s v3",
+      "serviceName": "Cloud Services", "unitOfMeasure": "1 Hour", "type": "Consumption",
+      "isPrimaryMeterRegion": true, "armSkuName": "Standard_D4s_v3", "savingsPlan": []
+    },
+    {
+      "currencyCode": "USD", "tierMinimumUnits": 0, "retailPrice": 70.0, "unitPrice": 70.0,
+      "armRegionName": "eastus2", "location": "US East 2", "meterName": "D4s v3 Monthly",
+      "productName": "Virtual Machines Dsv3 Series", "skuName": "D4s v3",
+      "serviceName": "Virtual Machines", "unitOfMeasure": "1 Month", "type": "Consumption",
+      "isPrimaryMeterRegion": true, "armSkuName": "Standard_D4s_v3", "savingsPlan": []
+    },
+    {
+      "currencyCode": "USD", "tierMinimumUnits": 0, "retailPrice": 0, "unitPrice": 0,
+      "armRegionName": "eastus2", "location": "US East 2", "meterName": "E4s v5 Free",
+      "productName": "Virtual Machines Esv5 Series", "skuName": "E4s v5",
+      "serviceName": "Virtual Machines", "unitOfMeasure": "1 Hour", "type": "Consumption",
+      "isPrimaryMeterRegion": true, "armSkuName": "Standard_E4s_v5", "savingsPlan": []
+    },
+    {
+      "currencyCode": "EUR", "tierMinimumUnits": 0, "retailPrice": 0.15, "unitPrice": 0.15,
+      "armRegionName": "eastus2", "location": "US East 2", "meterName": "D4s v3 EUR",
+      "productName": "Virtual Machines Dsv3 Series", "skuName": "D4s v3",
+      "serviceName": "Virtual Machines", "unitOfMeasure": "1 Hour", "type": "Consumption",
+      "isPrimaryMeterRegion": true, "armSkuName": "Standard_D4s_v3", "savingsPlan": []
+    }
+  ]
+}

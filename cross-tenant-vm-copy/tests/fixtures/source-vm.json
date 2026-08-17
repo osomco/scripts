@@ -1,0 +1,37 @@
+{
+  "id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/APP-RG/providers/Microsoft.Compute/virtualMachines/APP-VM",
+  "name": "APP-VM",
+  "location": "eastus",
+  "zones": ["1"],
+  "tags": {"env": "prod"},
+  "properties": {
+    "hardwareProfile": {"vmSize": "Standard_D4s_v3"},
+    "securityProfile": {"securityType": "TrustedLaunch", "uefiSettings": {"secureBootEnabled": true, "vTpmEnabled": true}},
+    "storageProfile": {
+      "osDisk": {
+        "osType": "Windows",
+        "name": "APP-VM-osdisk",
+        "caching": "ReadWrite",
+        "managedDisk": {"id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/APP-RG/providers/Microsoft.Compute/disks/APP-VM-osdisk"}
+      },
+      "dataDisks": [
+        {
+          "lun": 0,
+          "name": "APP-VM-data0",
+          "caching": "None",
+          "writeAcceleratorEnabled": false,
+          "managedDisk": {"id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/APP-RG/providers/Microsoft.Compute/disks/APP-VM-data0"}
+        },
+        {
+          "lun": 1,
+          "name": "APP-VM-data1",
+          "caching": "ReadOnly",
+          "writeAcceleratorEnabled": false,
+          "managedDisk": {"id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/APP-RG/providers/Microsoft.Compute/disks/APP-VM-data1"}
+        }
+      ]
+    },
+    "networkProfile": {"networkInterfaces": [{"id": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/APP-RG/providers/Microsoft.Network/networkInterfaces/APP-VM-nic"}]},
+    "diagnosticsProfile": {"bootDiagnostics": {"enabled": true, "storageUri": "https://legacydiag.blob.core.windows.net/"}}
+  }
+}

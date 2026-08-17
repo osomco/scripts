@@ -87,7 +87,7 @@ Descargar la distribución publicada en GitHub a un directorio persistente:
 
 ```bash
 RUNBOOK_DIR="$HOME/AzureMigrationRunbook"
-BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/azure-vm-cross-tenant-migration"
+BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/cross-tenant-vm-copy"
 
 mkdir -p "$RUNBOOK_DIR"
 chmod 700 "$RUNBOOK_DIR"
@@ -161,7 +161,7 @@ Descargar los artefactos directamente dentro del sistema de archivos Linux:
 
 ```bash
 RUNBOOK_DIR="$HOME/AzureMigrationRunbook"
-BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/azure-vm-cross-tenant-migration"
+BASE_URL="https://raw.githubusercontent.com/osomco/scripts/main/cross-tenant-vm-copy"
 
 mkdir -p "$RUNBOOK_DIR"
 chmod 700 "$RUNBOOK_DIR"
